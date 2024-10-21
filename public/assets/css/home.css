@@ -38,6 +38,9 @@
     font-size: 1em;
     line-height: 1.6em;
 }
+.home-description p a{
+    font-weight: 700;
+}
 
 /* Recent Post  */
 
@@ -83,16 +86,17 @@
     }
     .home-description p{
         font-size: 1em;
+        width: 90vw;
     }
 }
 
 @media screen and (max-width: 768px){
     .home-container{
-        gap: 12px;
+        gap: 16px;
         min-width: 95vw;
     }
     .home-description{
-        gap: 12px;
+        gap: 16px;
     }
     .home-description p{
         line-height: 1.4em;
@@ -108,7 +112,7 @@
 
 @media screen and (max-width: 400px){
     .pfp{
-        height: 150px;
+        height: 250px;
         margin-top: 40px;
     }
     .home-description p{

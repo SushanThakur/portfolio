@@ -14,6 +14,7 @@
 
     --primary-theme-active: #ff4f4f;
     --highlight-color: #EDF7FA;
+    --border-passive: grey;
 
     --h1-size: 2em;
     --h2-size: 1.5em;
@@ -88,7 +89,7 @@ button:active{
     gap: 40px;
     align-items: center;
     justify-content: center;
-    padding: 40px;
+    margin: 40px;
 }
 .section-nav{
     width: 100%;

@@ -1,0 +1,14 @@
+.blog-list-container{
+    display: grid;
+    width: 100%;
+    /* grid-template-columns: repeat(auto-fit, 100%); */
+}
+.blog-list{
+    display: flex;
+    max-width: 90vw;
+    max-width: var(--max-width);
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;;
+    border-bottom: 2px solid var(--border-passive);
+}
