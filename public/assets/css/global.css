@@ -30,6 +30,7 @@
 body{
     font-family: var(--primary-font);
     color: var(--primary-font-color);
+    overflow-x: hidden;
 }
 
 h1{font-size: 2em;}
@@ -73,6 +74,12 @@ button:active{
 }
 
 /* Section  */
+.section-container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .section{
     width: 80vw;
     max-width: var(--max-width);
@@ -97,12 +104,6 @@ button:active{
     justify-content: center;
     gap: 40px;
     grid-template-columns: repeat(auto-fit, 400px);
-}
-.section-container{
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .section-highlight{
     background-color: var(--highlight-color);

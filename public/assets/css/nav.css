@@ -1,6 +1,7 @@
 .home-header{
     width: 100vw;
-    position: fixed;
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,6 +36,8 @@
 
 /* mobile navigation class */
 .home-mob-nav{
+    display: flex;
+    flex-direction: column-reverse;
     display: none;
     width: 100%;
     z-index: 999;
@@ -42,22 +45,25 @@
 .options{
     height: 70px;
     width: 70px;
-    position: fixed;
-    right: 0px;
-    background-color: #fff;
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
     padding: 20px;
 }
 .home-mob-nav ul{
     width: 100vw;
+    position: absolute;
+    top: 0px;
     list-style-type: none;
     display: flex;
     flex-direction: column;
+    gap: 40px;
     align-items: center;
     justify-content: center;
-    gap: 40px;
     padding: 20px;
-    display: none;
+    margin-top: 70px;
     background-color: #fff;
+    display: none;
 }
 .mobile-nav-exit{
     position: fixed;

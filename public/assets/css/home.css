@@ -15,6 +15,8 @@
     align-items: center;
     justify-content: space-between;
     gap: 40px;
+    padding: 40px;
+    transform: translateY(-70px);
 }
 
 .pfp{
@@ -34,7 +36,6 @@
 }
 .home-description p{
     font-size: 1em;
-    letter-spacing: 1px;
     line-height: 1.6em;
 }
 
@@ -94,7 +95,6 @@
         gap: 12px;
     }
     .home-description p{
-        letter-spacing: .1em;
         line-height: 1.4em;
     }
 
