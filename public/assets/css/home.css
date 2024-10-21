@@ -1,9 +1,11 @@
 #home{
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 44px;
+    padding: 40px;
 }
 
 .home-container{
@@ -13,6 +15,7 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .pfp{
@@ -91,4 +94,17 @@
 }
 .certificate-image{
     width: 100%;
+}
+
+@media screen and (max-width: 992px){
+    .home-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-description{
+        align-items: center;
+    }
+    .section{
+        width: 100vw;
+    }
 }
