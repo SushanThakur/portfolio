@@ -24,10 +24,6 @@
 
 .git-stat-img{
     width: 90vw;
+    max-width: 440px;
 }
 
-@media screen and (max-width: 576px){
-    table{
-        width: 100%;
-    }
-}
