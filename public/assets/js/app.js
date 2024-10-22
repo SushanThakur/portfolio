@@ -1,9 +1,6 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js"
 import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore.js"
 
-// const initializeApp = require('https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js')
-// const getFirestore = require('https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore.js')
-
 const firebaseConfig = {
     apiKey: "AIzaSyA7Mj1AXlE1fWDx__0mz2B1SIDBBk62VvA",
     authDomain: "sushant-uk.firebaseapp.com",
@@ -60,7 +57,7 @@ contactForm.addEventListener('submit', (event) => {
         formOut.style.color = 'red'
         formOut.innerHTML = 'Please fill all the required fields!!!'
     } else {
-        console.log(fname,lname,email,message)
+        // console.log(fname,lname,email,message)
 
         try {
             const docRef = addDoc(collection(db, "sushant-uk-contact-form"), {
@@ -70,10 +67,9 @@ contactForm.addEventListener('submit', (event) => {
                 message: message,
                 time: Date.now(),
             });
-            //console.log("Document written with ID: ", docRef.id);
             var submitted = true;
           } catch (e) {
-            console.error("Error adding document: ", e);
+            console.error("Error adding document!");
           }
 
         formOut.style.color = 'green'
