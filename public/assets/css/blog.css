@@ -1,6 +1,7 @@
 .blog-list-container{
     display: grid;
     width: 100%;
+    padding: 40px;
     /* grid-template-columns: repeat(auto-fit, 100%); */
 }
 .blog-list{
