@@ -46,10 +46,112 @@
         </header>
         <div id="mobile-nav-exit" class="mobile-nav-exit"></div>
 
+        <main id="ContactForm" class="section-container">
+            <section class="section">
+                <span class="section-nav"> <h1>Contact Form</h1> </span>
+                <span class="section-nav"
+                    ><p>
+                        Contact directly through email for faster response
+                        <br />
+                        <strong>
+                            <a href="mailto:mail@sushant.uk">mail@sushant.uk</a>
+                        </strong>
+                    </p></span
+                >
+                <p id="formResponse" class="section-nav">
+                    Please fill the form in decent manner.
+                </p>
+                <section class="contact-form-container">
+                    <form id="contactForm" action="">
+                        <label for="fname">Full Name *</label>
+                        <div
+                            style="
+                                display: grid;
+                                grid-template-columns: repeat(2, 49%);
+                                gap: 5px;
+                                width: 100%;
+                                max-width: 400px;
+                            ">
+                            <input
+                                type="text"
+                                name="fname"
+                                id="fname"
+                                placeholder="First Name" />
+                            <input
+                                type="text"
+                                name="lname"
+                                id="lname"
+                                placeholder="Last Name" />
+                        </div>
+                        <label for="email">Email *</label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="example@example.com" />
+                        <label for="message">Message *</label>
+                        <textarea
+                            name="message"
+                            id="message"
+                            placeholder="Type your message here."></textarea>
+                        <button id="contactFormSubmit" type="submit">
+                            Submit
+                        </button>
+                    </form>
+                    <div class="contact-social-links">
+                        <a
+                            href="https://www.linkedin.com/in/sushanthakur/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <img
+                                class="contact-social-links-image"
+                                src="./assets/media/icons/contact/linkedin.webp"
+                                alt="Sushant Thakur Linkedin" />
+                        </a>
+                        <a
+                            href="https://github.com/sushanthakur"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <img
+                                class="contact-social-links-image"
+                                src="./assets/media/icons/contact/github.webp"
+                                alt="Sushant Thakur GitHub" />
+                        </a>
+                        <a
+                            href="https://www.facebook.com/sushant.thakur.st/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <img
+                                class="contact-social-links-image"
+                                src="./assets/media/icons/contact/fb.webp"
+                                alt="Sushant Thakur Facebook" />
+                        </a>
+                        <a
+                            href="https://www.instagram.com/sushant_404"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <img
+                                class="contact-social-links-image"
+                                src="./assets/media/icons/contact/insta.webp"
+                                alt="Sushant Thakur Instagram" />
+                        </a>
+                        <a href="mailto:mail@sushant.uk">
+                            <img
+                                class="contact-social-links-image"
+                                src="./assets/media/icons/contact/gmail.webp"
+                                alt="Sushant Thakur Mail Address" />
+                        </a>
+                    </div>
+                </section>
+            </section>
+        </main>
+
         <footer id="footer" class="footer">
             <section class="footer-container">
                 <div class="footer-links">
-                    <a href="#"
+                    <a
+                        href="https://facebook.com/sushant.thakur.st/"
+                        target="_blank"
                         ><img src="./assets/media/icons/fb.webp" alt="Facebook"
                     /></a>
                     <a
@@ -59,7 +161,7 @@
                             src="./assets/media/icons/insta.webp"
                             alt="Instagram"
                     /></a>
-                    <a href="#"
+                    <a href="https://x.com/x_sushant_404" target="_blank"
                         ><img src="./assets/media/icons/Group.webp" alt="Group"
                     /></a>
                     <a
@@ -73,6 +175,6 @@
                 <p>Copyright ©2024 All rights reserved</p>
             </section>
         </footer>
-        <script src="./assets/js/app.js"></script>
+        <script type="module" src="./assets/js/app.js"></script>
     </body>
 </html>

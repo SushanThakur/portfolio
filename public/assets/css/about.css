@@ -7,7 +7,9 @@
     padding: 40px;
     text-align: justify;
 }
-
+.about-me-container table{
+    width: 100%;
+}
 .about-me-container table,.about-me-container tr,.about-me-container th,.about-me-container td{ 
     border: 2px solid var(--border-passive);
     border-collapse: collapse;
@@ -29,3 +31,9 @@
     max-width: 440px;
 }
 
+@media screen and (max-width: 768px){
+    .about-me-container{
+        width: 95vw;
+        padding: 0;
+    }
+}

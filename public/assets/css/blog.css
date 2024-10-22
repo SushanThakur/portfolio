@@ -13,3 +13,12 @@
     padding-bottom: 20px;;
     border-bottom: 2px solid var(--border-passive);
 }
+
+@media screen and (max-width: 768px){
+    .blog-list-container{
+        padding: 0;
+    }
+    .blog-list{
+        width: 95vw;
+    }
+}
