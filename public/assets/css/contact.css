@@ -53,14 +53,21 @@
     .contact-social-links{
         flex-direction: row;
         margin:0;
+        display: none;
     }
     .contact-social-links-image{
         height: 30px;
     }
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 768px){
     .contact-form-container form{
         width: 95vw;
+        max-width: 768px;
+        gap: 12px;
+    }
+    .contact-form-container form textarea{
+        min-height: 100px;
     }
 }
+
