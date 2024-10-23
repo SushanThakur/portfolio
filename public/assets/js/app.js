@@ -24,6 +24,13 @@ const contactForm = document.getElementById('contactForm')
 const formSubmit = document.getElementById('contactFormSubmit')
 const formOut = document.getElementById('formResponse')
 
+//preloader
+
+window.addEventListener('load', () => {
+    const preloader = document.getElementById('preloader');
+    preloader.style.display = 'none';
+})
+
 menu.addEventListener('click', () => {
     menu.style.display = 'none';
     close.style.display = 'flex';

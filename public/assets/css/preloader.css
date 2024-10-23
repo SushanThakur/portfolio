@@ -1,0 +1,23 @@
+.preloader{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+.loading-img{
+    height: 48px;
+}
+
+@media screen and (max-width: 465px){
+    .preloader{
+        flex-direction: column-reverse;
+        font-size: 15px;
+    }
+}
