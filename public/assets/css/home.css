@@ -46,24 +46,35 @@
 
 .recent-post-home-tile{
     height: 280px;
-    width: 400px;
+    width: 398px;
     background-color: #fff;
     padding: 20px;
 
     display: flex;
     flex-direction: column;
     gap: 12px;
+    transition-duration: 0.3s;
+}
+.recent-post-home-tile:hover{
+    background-color: #fff;
+    width: 400px;
+    box-shadow: 8px 8px 2px #1972ae;
 }
 .certificate-tile{
     height: 602px;
-    background-color: var(--highlight-color);
+    background-color: #b4dce4;
     padding: 12px;
     display: flex;
     flex-direction: column;
     gap: 12px;
+    transition-duration: 0.3s;
 }
 .certificate-image{
     width: 100%;
+}
+.certificate-tile:hover{
+    background-color: #9cd1db;
+    box-shadow: 8px 8px 8px #ccdfed;
 }
 
 @media screen and (max-width: 992px){

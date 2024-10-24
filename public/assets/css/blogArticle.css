@@ -63,6 +63,9 @@ code {
 }
 
 @media (max-width: 768px) {
+    .article-section{
+        padding: 12px;
+    }
     .section-article h1 {
         font-size: 2rem; 
     }

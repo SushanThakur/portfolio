@@ -34,7 +34,7 @@
     font-weight: 700 !important;
 }
 
-/* mobile navigation class */
+/* mobile navigation */
 .home-mob-nav{
     display: flex;
     flex-direction: column-reverse;
@@ -57,7 +57,7 @@
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 22px;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -65,6 +65,7 @@
     background-color: #fff;
     display: none;
 }
+
 .mobile-nav-exit{
     position: absolute;
     display: none;
