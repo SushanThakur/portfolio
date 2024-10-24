@@ -81,6 +81,7 @@ button:active{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-color: pink; */
 }
 .section{
     width: 80vw;
@@ -91,6 +92,7 @@ button:active{
     align-items: center;
     justify-content: center;
     margin: 40px;
+    /* background-color: blue; */
 }
 .section-nav{
     width: 100%;
@@ -119,6 +121,7 @@ button:active{
     }
     .section{
         width: 95vw;
+        margin: 20px 40px;
     }
     .section-nav{
         width: 95vw;
