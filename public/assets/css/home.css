@@ -46,7 +46,7 @@
 
 .recent-post-home-tile{
     height: 280px;
-    width: 398px;
+    width: 400px;
     background-color: #fff;
     padding: 20px;
 
@@ -57,7 +57,6 @@
 }
 .recent-post-home-tile:hover{
     background-color: #fff;
-    width: 400px;
     box-shadow: 8px 8px 2px #1972ae;
 }
 .certificate-tile{

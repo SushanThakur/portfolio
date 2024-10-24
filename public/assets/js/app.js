@@ -65,6 +65,8 @@ contactForm.addEventListener('submit', (event) => {
         formOut.innerHTML = 'Please fill all the required fields!!!'
     } else {
         // console.log(fname,lname,email,message)
+        var d = new Date(Date.now());
+        d.toString()
 
         try {
             const docRef = addDoc(collection(db, "sushant-uk-contact-form"), {
@@ -72,7 +74,7 @@ contactForm.addEventListener('submit', (event) => {
                 lname: lname,
                 email: email,
                 message: message,
-                time: Date.now(),
+                time: d,
             });
             var submitted = true;
           } catch (e) {
