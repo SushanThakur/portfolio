@@ -80,7 +80,7 @@ contactForm.addEventListener('submit', (event) => {
           }
 
         formOut.style.color = 'green'
-        formOut.innerHTML = 'Submitted Sucessfully!'
+        formOut.innerHTML = 'Message Sent Sucessfully!'
         contactForm.reset()
     }
 })
