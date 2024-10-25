@@ -67,7 +67,7 @@
 }
 
 .mobile-nav-exit{
-    position: absolute;
+    position: fixed;
     display: none;
     height: 100vh;
     width: 100vw;

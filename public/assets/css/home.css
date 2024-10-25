@@ -54,6 +54,9 @@
     flex-direction: column;
     gap: 12px;
     transition-duration: 0.3s;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 .recent-post-home-tile:hover{
     background-color: #fff;
@@ -67,6 +70,9 @@
     flex-direction: column;
     gap: 12px;
     transition-duration: 0.3s;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
 }
 .certificate-image{
     width: 100%;
@@ -127,5 +133,16 @@
     }
     .home-description p{
         line-height: 1.2em;
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.7;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
     }
 }
