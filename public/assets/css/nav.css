@@ -22,16 +22,28 @@
     background-color: #fff;
 }
 
-/* .home-desk-nav a{} */
+.home-desk-nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .home-desk-nav li{
     padding: 20px 20px;
     font-size: var(--h3-size);
     font-weight: 500;
 }
+
+/* .home-desk-nav a:hover{
+    scale: 1.2;
+    font-weight: 700 !important;
+    transition-duration: 0.05s;
+    background-color: rgba(69, 69, 69, 0.172);
+} */
 .active{
     color: var(--primary-theme-color);
     font-weight: 700 !important;
+    scale: 1.2;
 }
 
 /* mobile navigation */

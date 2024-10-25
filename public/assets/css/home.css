@@ -56,11 +56,12 @@
     transition-duration: 0.3s;
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 20%;
 }
 .recent-post-home-tile:hover{
     background-color: #fff;
     box-shadow: 8px 8px 2px #1972ae;
+    scale: 1.04;
 }
 .certificate-tile{
     height: 602px;
@@ -72,14 +73,15 @@
     transition-duration: 0.3s;
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 30%;
 }
 .certificate-image{
     width: 100%;
 }
 .certificate-tile:hover{
     background-color: #9cd1db;
-    box-shadow: 8px 8px 8px #ccdfed;
+    box-shadow: 8px 8px 4px #ccdfed;
+    scale: 1.04;
 }
 
 @media screen and (max-width: 992px){
