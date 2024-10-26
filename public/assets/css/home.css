@@ -139,11 +139,19 @@
 
 @media screen and (max-width: 400px){
     .pfp{
-        height: 240px;
+        height: 220px;
         /* margin-top: 40px; */
     }
     .home-description p{
         line-height: 1.2em;
+    }
+    .recent-post-home-tile{
+        width: 88vw;
+        height: 240px;
+    }
+    .certificate-tile{
+        width: 88vw;
+        height: 520px;
     }
 }
 

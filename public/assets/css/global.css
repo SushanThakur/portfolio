@@ -128,3 +128,12 @@ button:active{
         padding: 0px;
     }
 }
+
+@media screen and (max-width: 400px){
+    html{
+        font-size: 14px;
+    }
+    .section-tile-container{
+        grid-template-columns: repeat(auto-fit, 88vw);
+    }
+}
