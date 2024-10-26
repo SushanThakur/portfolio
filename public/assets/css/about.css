@@ -37,3 +37,9 @@
         padding: 0;
     }
 }
+
+@media screen and (max-width: 400px){
+    .about-me-container{
+        width: 88vw;
+    }
+}

@@ -133,6 +133,9 @@ button:active{
     html{
         font-size: 14px;
     }
+    .section-nav{
+        width: 88vw;
+    }
     .section-tile-container{
         grid-template-columns: repeat(auto-fit, 88vw);
     }

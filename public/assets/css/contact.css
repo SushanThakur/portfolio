@@ -71,3 +71,12 @@
     }
 }
 
+@media screen and (max-width: 400px){
+    .contact-form-container {
+        width: 88vw;
+        /* background-color: green; */
+    }
+    .contact-form-container form{
+        width: 88vw;
+    }
+}
