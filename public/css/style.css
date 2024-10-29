@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.button {
+  padding: 1.2rem 2.4rem;
+  border: none;
+  background-color: #FF6464;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: "Open Sans", serif;
+}
+.button:hover svg {
+  transform: translateX(18px);
+}
+.button a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.button a svg {
+  height: 1.6rem;
+  transition-duration: 0.3s;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .desk-nav {
+  width: min(80vw, 1800px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #fff;
+}
+header .desk-nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  list-style-type: none;
+}
+header .desk-nav ul li {
+  padding: 1rem 2rem;
+  transition: 0.2s;
+}
+header .desk-nav ul li:hover {
+  scale: 1.1;
+  background-color: grey;
+}
+header .desk-nav ul li a {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .per-cont {
+  width: min(80vw, 1400px);
+  display: flex;
+  flex-direction: row;
+  gap: 2.8rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: max(20vh, 20px) 0;
+}
+main .per-cont .per-desc {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+main .per-cont .per-desc h1 {
+  font-size: 2.4rem;
+}
+main .per-cont .per-desc p {
+  font-size: 1.1em;
+}
+main .per-cont .per-pfp {
+  width: min(400px, 88vw);
+}
+main .per-cont .per-pfp img {
+  width: 100%;
+  border-radius: 50%;
+}
+main .fet-work-cont {
+  background-color: #66a1c9;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .fet-work-cont .fet-work {
+  width: 80vw;
+  max-width: min(1400px, 88vw);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2.2rem 0;
+}
+main .fet-work-cont .fet-work span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+main .fet-work-cont .fet-work span h2 {
+  font-size: 1.8rem;
+}
+main .fet-work-cont .fet-work span a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+main .fet-work-cont .fet-work span a:hover svg {
+  scale: 1.1;
+}
+main .fet-work-cont .fet-work span a svg {
+  height: 1.2rem;
+}
+main .fet-work-cont .fet-work div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+main .fet-work-cont .fet-work div .fet-work-card {
+  height: 280px;
+  width: 400px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.8rem;
+  padding: 1.22rem;
+}
+main .fet-work-cont .fet-work div .fet-work-card div {
+  display: flex;
+  flex-direction: row;
+}
+main .fet-work-cont .fet-work div .fet-work-card div span {
+  background-color: green;
+  padding: 0.4rem 1rem;
+}/*# sourceMappingURL=style.css.map */

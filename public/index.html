@@ -1,311 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Sushant Thakur</title>
-        <link rel="stylesheet" href="./assets/css/style.css" />
-        <link
-            rel="shortcut icon"
-            href="./assets/media/personal/pfpIcon.png"
-            type="image/x-icon" />
-    </head>
-    <body>
-        <!-- <section class="preloader" id="preloader">
-            <p class="h1size">Loading please wait...</p>
-            <img
-                class="loading-img"
-                src="./assets/media/icons/loading.gif"
-                alt="loading" />
-        </section> -->
-        <header class="home-header">
-            <nav id="home-desk-nav" class="home-desk-nav">
-                <ul id="home-desk-nav-ul" class="home-desk-nav-ul">
-                    <a href="index.html"><li class="active">Home</li></a>
-                    <a href="about.html"><li>About</li></a>
-                    <a href="blog.html"><li>Blog</li></a>
-                    <a href="work.html"><li>Works</li></a>
-                    <a href="contact.html"><li>Contact</li></a>
-                </ul>
-            </nav>
-            <nav id="home-mob-nav" class="home-mob-nav">
-                <img
-                    id="menu"
-                    class="options"
-                    src="./assets/media/icons/menu.webp"
-                    alt="menu" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sushant Thakur</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Desktop Nav -->
+      <nav class="desk-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Mobile Nav Hidden By Default -->
+      <nav class="mob-nav" style="display: none">
+        <svg
+          class="nav-ham"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
 
-                <ul id="home-mob-nav-ul">
-                    <a href="index.html"><li class="active">Home</li></a>
-                    <a href="about.html"><li>About</li></a>
-                    <a href="blog.html"><li>Blog</li></a>
-                    <a href="work.html"><li>Works</li></a>
-                    <a href="contact.html"><li>Contact</li></a>
-                </ul>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Works</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <svg
+          class="nav-close"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18 18 6M6 6l12 12" />
+        </svg>
+      </nav>
+    </header>
 
-                <img
-                    id="close"
-                    class="options"
-                    src="./assets/media/icons/close.webp"
-                    alt="Close Menu"
-                    style="display: none" />
-            </nav>
-        </header>
-        <div id="mobile-nav-exit" class="mobile-nav-exit"></div>
-        <main id="home">
-            <section class="home-container">
-                <img
-                    class="pfp"
-                    src="./assets/media/personal/pfp.webp"
-                    alt="Sushant Thakur Display Picture" />
-                <section class="home-description">
-                    <h1>
-                        Hi, I am Sushant, <br />
-                        Electrical Engineering Student.
-                    </h1>
-                    <p>
-                        I am an Electrical Engineering student with a passion
-                        for robotics, system design, and programming. I enjoy
-                        working on complex robotic projects and have gained...
-                        <a href="about.html">Read More</a>
-                    </p>
-                    <a href="./assets/media/personal/resume.pdf">
-                        <button>Download Resume</button>
-                    </a>
-                </section>
-            </section>
-        </main>
-        <section id="RecentPosts" class="section-container section-highlight">
-            <section class="section">
-                <nav class="section-nav">
-                    <h2>Featured Posts</h2>
-                    <a href="./blog.html"><h3>View All</h3></a>
-                </nav>
-                <section class="section-tile-container">
-                    <!-- Recent Post Tile Start -->
-                    <div class="recent-post-home-tile">
-                        <span class="h2size">
-                            <a
-                                href="./article/blog/blog-1-getting-started-with-ros-2.html"
-                                >Getting Started With ROS 2: A Beginner's
-                                Guide</a
-                            >
-                        </span>
-                        <span class="post-meta">
-                            <span class="dateHighlight">2024</span>
-                            <span class="tile-type">Robotics</span>
-                        </span>
-                        <p>
-                            Robotics is evolving rapidly, and with the rise of
-                            powerful open-source tools like ROS (Robot Operating
-                            System), it's easier than ever to develop and
-                            control robots. ROS 2 is the next...
-                            <strong
-                                ><a
-                                    href="./article/blog/blog-1-getting-started-with-ros-2.html"
-                                    >Read More</a
-                                ></strong
-                            >
-                        </p>
-                    </div>
-                    <!-- Recent Post Tile Ends -->
-                    <!-- Recent Post Tile Start -->
-                    <div class="recent-post-home-tile">
-                        <span class="h2size">
-                            <a href="#"> Post Heading</a>
-                        </span>
-                        <span class="post-meta">
-                            <span class="dateHighlight">2024</span>
-                            <span class="tile-type">lorem</span>
-                        </span>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Nam quo obcaecati ipsam nesciunt accusamus
-                            harum ab, illum quisquam laboriosam! Perferendis
-                            quibusdam suscipit porro quod ullam, sit laborum
-                            dicta quaerat in.
-                        </p>
-                    </div>
-                    <!-- Recent Post Tile Ends -->
-                    <!-- Recent Post Tile Start -->
-                    <div class="recent-post-home-tile">
-                        <span class="h2size">
-                            <a href="#"> Post Heading</a>
-                        </span>
-                        <span class="post-meta">
-                            <span class="dateHighlight">2024</span>
-                            <span class="tile-type">lorem</span>
-                        </span>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Nam quo obcaecati ipsam nesciunt accusamus
-                            harum ab, illum quisquam laboriosam! Perferendis
-                            quibusdam suscipit porro quod ullam, sit laborum
-                            dicta quaerat in.
-                        </p>
-                    </div>
-                    <!-- Recent Post Tile Ends -->
-                    <!-- Recent Post Tile Start -->
-                    <div class="recent-post-home-tile">
-                        <span class="h2size">
-                            <a href="#"> Post Heading</a>
-                        </span>
-                        <span class="post-meta">
-                            <span class="dateHighlight">2024</span>
-                            <span class="tile-type">lorem</span>
-                        </span>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Nam quo obcaecati ipsam nesciunt accusamus
-                            harum ab, illum quisquam laboriosam! Perferendis
-                            quibusdam suscipit porro quod ullam, sit laborum
-                            dicta quaerat in.
-                        </p>
-                    </div>
-                    <!-- Recent Post Tile Ends -->
-                </section>
-            </section>
+    <main>
+      <section class="per-cont">
+        <section class="per-desc">
+          <h1>
+            Hi, I am Sushant, <br />
+            Electrical Engineering Student.
+          </h1>
+          <p>
+            I am a First Year Electrical Engineering student with a passion for
+            robotics, system design, and programming. I enjoy working on complex
+            robotic projects and have gained hands-on experience in designing
+            innovative solutions. My dedication to continuous learning and
+            problem-solving drives me to push the boundaries of technology and
+            engineering through creative and efficient designs.
+          </p>
+          <button class="button">
+            <a href="./assets/resume.pdf"
+              >Download Resume
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg>
+            </a>
+          </button>
         </section>
-
-        <section id="FeaturedCertificate" class="section-container">
-            <section class="section">
-                <nav class="section-nav">
-                    <h2>Featured Certificates</h2>
-                    <a href="./about.html"><h3>View All</h3></a>
-                </nav>
-                <section class="section-tile-container">
-                    <!--Certificate Tile Begins-->
-                    <div class="certificate-tile">
-                        <img
-                            class="certificate-image"
-                            src="./assets/media/personal/certificates/python-bootcamp.webp"
-                            alt="abc" />
-                        <span class="post-meta">
-                            <span class="dateHighlight">2021</span>
-                            <span class="tile-type">Programming</span>
-                        </span>
-                        <span class="h3size">Python Bootcamp 2021</span>
-                        <p>
-                            I completed this course while I was in 9th grade,
-                            which was a significant milestone for me. Since I
-                            was already familiar with C-Programming concepts,
-                            learning Python became much easier for me. This
-                            prior knowledge not only accelerated my learning but
-                            also allowed me to appreciate Python’s simplicity
-                            and flexibility in comparison to C.
-                        </p>
-                    </div>
-                    <!--Certificate Tile Ends-->
-                    <!--Certificate Tile Begins-->
-                    <div class="certificate-tile">
-                        <img
-                            class="certificate-image"
-                            src="./assets/media/personal/certificates/cProgrammingWorkshop.webp"
-                            alt="abc" />
-                        <span class="post-meta">
-                            <span class="dateHighlight">2021</span>
-                            <span class="tile-type">Programming</span>
-                        </span>
-                        <span class="h3size"
-                            >7 Days Wrokshop on C-Programming</span
-                        >
-                        <p>
-                            C was the first programming language I learned,
-                            starting in 7th grade, though I found it too complex
-                            initially and completed it in 8th grade. In 9th
-                            grade, I participated in this workshop meant for
-                            bachelor's students and secured 2nd place. The
-                            coordinators were so impressed that they refunded my
-                            enrollment fee and praised my skills. They
-                            encouraged my parents to support me in my
-                            programming journey.
-                        </p>
-                    </div>
-                    <!--Certificate Tile Ends-->
-                    <!--Certificate Tile Begins-->
-                    <div class="certificate-tile">
-                        <img
-                            class="certificate-image"
-                            src="./assets/media/personal/certificates/locusParticipant.webp"
-                            alt="abc" />
-                        <span class="post-meta">
-                            <span class="dateHighlight">2024</span>
-                            <span class="tile-type">Robotics</span>
-                        </span>
-                        <span class="h3size"
-                            >Winner of Plus Two Award In LOCUS 2024
-                            Exhibition</span
-                        >
-                        <p>
-                            I created a 5DOF robotic arm, named 'Armikochan,'
-                            and showcased it at the LOCUS 2024 exhibition, where
-                            it received an overwhelmingly positive response. A
-                            local newspaper even featured an article about the
-                            project, and my high school shared it on their page.
-                            This experience helped me build valuable contacts
-                            and gain recognition. (more about this project in
-                            'Works' tab)
-                        </p>
-                    </div>
-                    <!--Certificate Tile Ends-->
-                    <!-- Certificate Tile Begins-->
-                    <!-- <div class="certificate-tile">
-                      <img
-                          class="certificate-image"
-                          src="./assets/media/personal/certificates/locusParticipant.webp"
-                          alt="abc" />
-                      <span class="post-meta">
-                          <span class="dateHighlight">2024</span>
-                          <span class="tile-type">lorem</span>
-                      </span>
-                      <span class="h3size">Certifitate1</span>
-                      <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Numquam dolor ex eaque error eum nihil itaque.
-                          Labore adipisci voluptate mollitia soluta nulla sunt
-                          repudiandae, dolorem animi praesentium at nisi
-                          maiores rem. Ullam, quam totam ipsam ducimus natus
-                          corrupti quae. Iusto in culpa asperiores vitae
-                          obcaecati sed accusantium explicabo autem alias.
-                      </p>
-                  </div> -->
-                    <!--Certificate Tile Ends -->
-                </section>
-            </section>
+        <section class="per-pfp">
+          <img src="./assets/pfp.avif" alt="Sushant Thakur pfp" />
         </section>
-        <footer id="footer" class="footer">
-            <section class="footer-container">
-                <div class="footer-links">
-                    <a
-                        href="https://facebook.com/sushant.thakur.st/"
-                        target="_blank">
-                        <img
-                            src="./assets/media/icons/fb.webp"
-                            alt="Sushant Thakur Facebook" />
-                    </a>
-                    <a
-                        href="https://www.instagram.com/sushant_404/"
-                        target="_blank"
-                        ><img
-                            src="./assets/media/icons/insta.webp"
-                            alt="Sushant Thakur Instagram"
-                    /></a>
-                    <a href="https://x.com/x_sushant_404" target="_blank"
-                        ><img
-                            src="./assets/media/icons/Group.webp"
-                            alt="Sushant Thakur Twitter"
-                    /></a>
-                    <a
-                        href="https://www.linkedin.com/in/sushanthakur/"
-                        target="_blank"
-                        ><img
-                            src="./assets/media/icons/Linkedin.webp"
-                            alt="Sushant Thakur Linkedin"
-                    /></a>
-                </div>
-                <p>Copyright ©2024 All rights reserved</p>
-            </section>
-        </footer>
-        <script type="module" src="./assets/js/app.js"></script>
-    </body>
+      </section>
+
+      <section class="fet-work-cont">
+        <section class="fet-work">
+          <span>
+            <h2>Featured Work</h2>
+            <a href="#"
+              >View All
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+              </svg>
+            </a>
+          </span>
+          <div>
+            <div class="fet-work-card">
+              <h2>Post Heading</h2>
+              <div>
+                <span>2024</span>
+                <p>Category</p>
+              </div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Voluptates officia aliquid, dolores tempora maiores vel
+                assumenda ab magni delectus beatae autem sint. Eius tempore
+                aliquid ducimus atque voluptatem. Earum quo qui, debitis
+                explicabo quos doloremque. Sequi voluptatum modi esse
+                voluptatibus repudiandae quos velit. Fuga, velit exercitationem
+                tempore praesentium aperiam quam.
+              </p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
 </html>
