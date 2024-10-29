@@ -147,26 +147,43 @@ main .fet-work-cont .fet-work span a svg {
 }
 main .fet-work-cont .fet-work div {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 400px);
+  grid-template-columns: repeat(auto-fit, min(550px, 88vw));
   gap: 2rem;
   align-items: center;
   justify-content: center;
 }
 main .fet-work-cont .fet-work div .fet-work-card {
-  height: 280px;
-  width: 400px;
+  height: 400px;
+  width: 550px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1.8rem;
+  justify-content: space-between;
+  gap: 1.1rem;
   padding: 1.22rem;
 }
-main .fet-work-cont .fet-work div .fet-work-card div {
+main .fet-work-cont .fet-work div .fet-work-card .meta {
   display: flex;
   flex-direction: row;
 }
-main .fet-work-cont .fet-work div .fet-work-card div span {
+main .fet-work-cont .fet-work div .fet-work-card .meta span {
   background-color: green;
-  padding: 0.4rem 1rem;
+  padding: 0.2rem 1rem;
+  border-radius: 1.1rem;
+  font-weight: 600;
+}
+main .fet-work-cont .fet-work div .fet-work-card .card-desc {
+  height: 250px;
+  overflow: hidden;
+}
+main .fet-work-cont .fet-work div .fet-work-card a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+main .fet-work-cont .fet-work div .fet-work-card a svg {
+  height: 1.2rem;
 }/*# sourceMappingURL=style.css.map */

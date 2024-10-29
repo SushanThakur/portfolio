@@ -233,29 +233,50 @@ main{
 
       div{
         display: grid;
-        grid-template-columns: repeat(auto-fit, 400px);
+        grid-template-columns: repeat(auto-fit, min(550px, 88vw));
         gap: 2rem;
         align-items: center;
         justify-content: center;
 
 
         .fet-work-card{
-          height: 280px;
-          width: 400px;
+          height: 400px;
+          width: 550px;
           background-color: #fff;
           display: flex;
           flex-direction: column;
           align-items: flex-start;
-          gap: 1.8rem;
+          justify-content: space-between;
+          gap: 1.1rem;
           padding: 1.22rem;
 
-          div{
+          .meta{
             display: flex;
             flex-direction: row;
 
             span{
               background-color: green;
-              padding: 0.4rem 1rem;
+              padding: 0.2rem 1rem;
+              border-radius: 1.1rem;
+              font-weight: 600;
+            }
+          }
+
+          
+          .card-desc{
+            height: 250px;
+            overflow: hidden;
+          }
+
+          a{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 1rem;
+
+            svg{
+              height: 1.2rem;
             }
           }
         }
