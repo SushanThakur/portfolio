@@ -47,7 +47,7 @@ a{
     color: var(--primary-font-color);
 }
 
-button{
+.button{
     padding: 10px 20px;
     background-color: #FF6464;
     font-family: var(--primary-font);
@@ -58,7 +58,7 @@ button{
     border-radius: 4px;
     cursor: pointer;
 }
-button:active{
+.button:active{
     background-color: var(--primary-theme-active);
 }
 
